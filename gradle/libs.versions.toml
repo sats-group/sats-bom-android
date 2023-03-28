@@ -130,7 +130,7 @@ lottie-compose = { module = "com.airbnb.android:lottie-compose", version = "6.0.
 salesforce-marketingCloud = "com.salesforce.marketingcloud:marketingcloudsdk:8.0.8"
 shimmer = "com.facebook.shimmer:shimmer:0.5.0"
 slf4j-android = "org.slf4j:slf4j-android:1.7.36"
-slf4j-simple = "org.slf4j:slf4j-simple:2.0.6"
+slf4j-simple = "org.slf4j:slf4j-simple:2.0.7"
 snapper = "dev.chrisbanes.snapper:snapper:0.3.0"
 turbine = "app.cash.turbine:turbine:0.12.1"
 viewBindingPropertyDelegate = "com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.8"
