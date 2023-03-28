@@ -90,7 +90,7 @@ androidx-test-runner = "androidx.test:runner:1.5.2"
 arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
 arrow-optics = { module = "io.arrow-kt:arrow-optics", version.ref = "arrow" }
 arrow-optics-ksp = { module = "io.arrow-kt:arrow-optics-ksp-plugin", version.ref = "arrow" }
-coil-compose = "io.coil-kt:coil-compose:2.2.2"
+coil-compose = "io.coil-kt:coil-compose:2.3.0"
 commonmark = "org.commonmark:commonmark:0.21.0"
 dagger-hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "dagger" }
 dagger-hilt-runtime = { module = "com.google.dagger:hilt-android", version.ref = "dagger" }
