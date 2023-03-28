@@ -1,5 +1,23 @@
 plugins {
     `java-platform`
+    id("com.vanniktech.maven.publish") version "0.25.1"
+}
+
+publishing {
+    repositories {
+        maven {
+            name
+            url = uri("https://maven.pkg.github.com/sats-group/sats-bom-android")
+
+            credentials {
+                username = providers.gradleProperty("github.packages.username").orNull
+                    ?: System.getenv("GH_PACKAGES_USERNAME")
+
+                password = providers.gradleProperty("github.packages.password").orNull
+                    ?: System.getenv("GH_PACKAGES_PASSWORD")
+            }
+        }
+    }
 }
 
 javaPlatform {
