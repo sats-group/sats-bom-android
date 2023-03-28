@@ -1,6 +1,14 @@
+@file:Suppress("UnstableApiUsage")
+
 plugins {
     `java-platform`
     id("com.vanniktech.maven.publish") version "0.25.1"
+}
+
+mavenPublishing {
+    val versionName = System.getenv("VERSION_NAME") ?: "dev"
+
+    coordinates("com.sats.sats-bom", "sats-bom", versionName)
 }
 
 publishing {
