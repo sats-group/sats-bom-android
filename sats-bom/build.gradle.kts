@@ -2,7 +2,7 @@
 
 plugins {
     `java-platform`
-    id("com.vanniktech.maven.publish") version "0.25.1"
+    id("com.vanniktech.maven.publish") version "0.25.2"
 }
 
 mavenPublishing {
